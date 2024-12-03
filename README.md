@@ -22,4 +22,4 @@ You might ask why we can use the standard printf, but not the standard scanf. We
 
 ## Examples
 
-The newmain.c file has some example code that you can selectively enable or disable at the top of that file.
+The examples_main.c file has some example code that you can selectively enable or disable at the top of that file.
