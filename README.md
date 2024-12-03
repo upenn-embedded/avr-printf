@@ -1,6 +1,6 @@
 # Printf and Scanf for the ATMega328PB (MPLAB X IDE) 
 
-Quality of life improvement. Gives you the ```printf()``` and ```UART_scanf()``` functions, which you would use exactly like the regular ```printf()``` and ```scanf()```.
+Quality of life improvement. Gives you the ```printf()``` and ```uart_scanf()``` functions, which you would use exactly like the regular ```printf()``` and ```scanf()```. No more ```sprintf()``` and ```UART_putstring```
 
 ## Usage notes
 
@@ -11,9 +11,9 @@ The instructions on how to configure that can be found in the uart.h file, in th
 ## APIs
 
 - ```printf("<format string>", arg1, arg2, ...)```: works just like the native ```printf()```
-- ```UART_scanf("<format string>", &arg1, &arg2, ...)```: works just like the native ```scanf()```
+- ```uart_scanf("<format string>", &arg1, &arg2, ...)```: works just like the native ```scanf()```
 
-For ```UART_scanf()```, only three format specifiers have been implemented:
+For ```uart_scanf()```, only three format specifiers have been implemented:
 - ```%d```: integer
 - ```%s```: string
 - ```%c```: character
