@@ -2,7 +2,7 @@
 
 Quality of life improvement. Gives you the ```printf()``` and ```uart_scanf()``` functions, which you would use exactly like the regular ```printf()``` and ```scanf()```. No more unwieldy buffer creation, ```sprintf()```, or ```UART_putstring()``` in your code.
 
-## Usage notes
+## Usage notes [IMPORTANT]
 
 In uart.h, there are two macros at the top that you **must configure** for this library to work.
 
