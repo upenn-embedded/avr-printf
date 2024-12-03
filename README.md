@@ -1,5 +1,7 @@
 # Printf and Scanf for the ATMega328PB (MPLAB X IDE) 
 
+Quality of life improvement. Gives you the ```printf()``` and ```UART_scanf()``` functions, which you would use exactly like the regular ```printf()``` and ```scanf()```.
+
 ## Usage notes
 
 In uart.h, there are two macros at the top that you **must configure** for this library to work.
