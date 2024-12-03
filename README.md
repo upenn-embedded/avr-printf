@@ -1,6 +1,6 @@
 # Printf and Scanf for the ATMega328PB (MPLAB X IDE) 
 
-Quality of life improvement. Gives you the ```printf()``` and ```uart_scanf()``` functions, which you would use exactly like the regular ```printf()``` and ```scanf()```. No more ```sprintf()``` and ```UART_putstring```
+Quality of life improvement. Gives you the ```printf()``` and ```uart_scanf()``` functions, which you would use exactly like the regular ```printf()``` and ```scanf()```. No more unwieldy buffer creation, ```sprintf()```, or ```UART_putstring()``` in your code.
 
 ## Usage notes
 
